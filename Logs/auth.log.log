@@ -1,0 +1,40 @@
+Mar 05 14:15:23 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 05 14:15:23 kali sshd[42546]: Server listening on 0.0.0.0 port 22.
+Mar 05 14:15:23 kali sshd[42546]: Server listening on :: port 22.
+Mar 05 14:15:23 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 05 14:23:13 kali sshd-session[45715]: Invalid user kali from 192.168.88.131 port 48130
+Mar 05 14:23:23 kali sshd-session[45715]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:23:23 kali sshd-session[45715]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131
+Mar 05 14:23:25 kali sshd-session[45715]: Failed password for invalid user kali from 192.168.88.131 port 48130 ssh2
+Mar 05 14:23:34 kali sshd-session[45715]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:23:36 kali sshd-session[45715]: Failed password for invalid user kali from 192.168.88.131 port 48130 ssh2
+Mar 05 14:23:46 kali sshd-session[45715]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:23:48 kali sshd-session[45715]: Failed password for invalid user kali from 192.168.88.131 port 48130 ssh2
+Mar 05 14:23:49 kali sshd-session[45715]: Connection closed by invalid user kali 192.168.88.131 port 48130 [preauth]
+Mar 05 14:23:49 kali sshd-session[45715]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131
+Mar 05 14:25:52 kali sshd-session[46817]: Invalid user kali from 192.168.88.131 port 43772
+Mar 05 14:25:56 kali sshd-session[46817]: Connection closed by invalid user kali 192.168.88.131 port 43772 [preauth]
+Mar 05 14:26:04 kali sshd-session[46901]: Invalid user kali from 192.168.88.131 port 50426
+Mar 05 14:26:12 kali sshd-session[46901]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:26:12 kali sshd-session[46901]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131
+Mar 05 14:26:14 kali sshd-session[46901]: Failed password for invalid user kali from 192.168.88.131 port 50426 ssh2
+Mar 05 14:28:06 kali sshd[42546]: Timeout before authentication for connection from 192.168.88.131 to 192.168.88.131, pid = 46901
+Mar 05 14:28:14 kali sshd-session[47695]: Invalid user kali from 192.168.88.131 port 37126
+Mar 05 14:28:19 kali sshd-session[47695]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:28:19 kali sshd-session[47695]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131
+Mar 05 14:28:20 kali sshd-session[47695]: Failed password for invalid user kali from 192.168.88.131 port 37126 ssh2
+Mar 05 14:29:23 kali sshd-session[47695]: pam_unix(sshd:auth): check pass; user unknown
+Mar 05 14:29:25 kali sshd-session[47695]: Failed password for invalid user kali from 192.168.88.131 port 37126 ssh2
+Mar 05 14:29:27 kali sshd-session[47695]: Connection closed by invalid user kali 192.168.88.131 port 37126 [preauth]
+Mar 05 14:29:27 kali sshd-session[47695]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131
+Mar 05 14:29:54 kali sshd-session[48290]: Accepted password for ajit from 192.168.88.131 port 50994 ssh2
+Mar 05 14:29:54 kali sshd-session[48290]: pam_unix(sshd:session): session opened for user ajit(uid=1000) by ajit(uid=0)
+Mar 05 14:30:56 kali unix_chkpwd[48750]: password check failed for user (ajit)
+Mar 05 14:30:56 kali sshd-session[48718]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131  user=ajit
+Mar 05 14:30:59 kali sshd-session[48718]: Failed password for ajit from 192.168.88.131 port 56538 ssh2
+Mar 05 14:31:06 kali unix_chkpwd[48811]: password check failed for user (ajit)
+Mar 05 14:31:08 kali sshd-session[48718]: Failed password for ajit from 192.168.88.131 port 56538 ssh2
+Mar 05 14:32:21 kali sshd-session[48718]: Connection closed by authenticating user ajit 192.168.88.131 port 56538 [preauth]
+Mar 05 14:32:21 kali sshd-session[48718]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.131  user=ajit
+Mar 05 14:32:31 kali sshd-session[49307]: Accepted password for ajit from 192.168.88.131 port 37158 ssh2
+Mar 05 14:32:31 kali sshd-session[49307]: pam_unix(sshd:session): session opened for user ajit(uid=1000) by ajit(uid=0)
